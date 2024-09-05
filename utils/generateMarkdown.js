@@ -16,7 +16,6 @@ function renderLicenseBadge(license) {
 };
 
 
-
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
@@ -67,7 +66,12 @@ ${data.description}
 - [Questions](#questions)
 
 ## Installation
-${data.installation}
+${data.installation.split("\n").map(i=>{return`
+${i}`}
+).join()}
+
+${data.installation.split("\n").join(`
+  `)}
 
 ## Usage
 ${data.usage}
