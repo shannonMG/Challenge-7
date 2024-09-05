@@ -15,9 +15,9 @@ A command-line application that dynamically generates a high-quality, profession
 
 ## Installation
 
-Clone the repository, in the project directory install dependencies and run node index.js
+Clone the repository, in the project directory install dependencies and run node index.js.
 
-Clone the repository, in the project directory install dependencies and run node index.js
+Clone the repository, in the project directory install dependencies and run node index.js.
 
 ## Usage
 Run the application in the terminal using node index.js, and follow the prompts to enter information about your project. The application will generate a README.md file based on the input.
